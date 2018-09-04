@@ -1,0 +1,6 @@
+./node_modules
+/node_modules
+/.vscode
+/reactApp/react/components/rbc
+/reactApp/react/store
+/reactApp/react/tests/rbc

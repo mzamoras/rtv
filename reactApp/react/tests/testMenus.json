@@ -1,0 +1,255 @@
+[
+    {
+        "code"      : "dashboard",
+        "label"     : "Dashboard",
+        "id"        : 2,
+        "icon"      : "dashboard",
+        "filterFunc": "default",
+        "color"     : "blue",
+        "status"    : "active",
+        "cells"     : null,
+        "target"    : null, 
+        "source"    : "https://localhost:6601/testing/responses",
+        "action"    : "external"
+    },
+    {
+        "code"      : "messages",
+        "label"     : "Messages",
+        "id"        : 3,
+        "icon"      : "textsms",
+        "filterFunc": "default",
+        "color"     : "green",
+        "status"    : "active",
+        "cells"     : [
+            {
+                "code"  : "inbox",
+                "label" : "Inbox",
+                "id"    : 0,
+                "action": "",
+                "target": "",
+                "icon"  : "inbox"
+            },
+            {
+                "code"  : "outbox",
+                "label" : "Outbox",
+                "id"    : 1,
+                "action": "",
+                "target": "",
+                "icon"  : ""
+            },
+            {
+                "code"  : "favorites",
+                "label" : "Favorites",
+                "id"    : 2,
+                "action": "",
+                "target": "",
+                "icon"  : "star_rate"
+            },
+            {
+                "code"  : "suggest",
+                "label" : "Suggest",
+                "id"    : 3,
+                "action": "",
+                "target": "",
+                "icon"  : ""
+            }
+        ]
+    },
+    {
+        "code"      : "support",
+        "label"     : "Support",
+        "id"        : 4,
+        "icon"      : "headset_mic",
+        "filterFunc": "default",
+        "color"     : "red",
+        "status"    : "disabled",
+        "cells"     : [
+            {
+                "code"  : "notifications",
+                "label" : "Notifications",
+                "id"    : 0,
+                "action": "",
+                "target": "",
+                "icon"  : ""
+            },
+            {
+                "code"  : "tickets",
+                "label" : "Tickets",
+                "id"    : 1,
+                "action": "",
+                "target": "",
+                "icon"  : ""
+            },
+            {
+                "code"  : "reports",
+                "label" : "Reports",
+                "id"    : 2,
+                "action": "",
+                "target": "",
+                "icon"  : ""
+            },
+            {
+                "code"  : "trashed",
+                "label" : "Trash",
+                "id"    : 3,
+                "action": "",
+                "target": "",
+                "icon"  : ""
+            }
+        ]
+    },
+    {
+        "code"      : "management",
+        "label"     : "Management",
+        "id"        : 5,
+        "icon"      : "assignment_turned_in",
+        "filterFunc": "default",
+        "color"     : "purple",
+        "status"    : "active",
+        "cells"     : [
+            {
+                "code"  : "users",
+                "label" : "Users",
+                "id"    : 0,
+                "action": "",
+                "target": "https://10.0.1.185:6601/testing/rtv",
+                "icon"  : ""
+            },
+            {
+                "code"  : "companies",
+                "label" : "Companies",
+                "id"    : 1,
+                "action": "",
+                "target": "",
+                "icon"  : ""
+            },
+            {
+                "code"  : "roles",
+                "label" : "Roles",
+                "id"    : 2,
+                "action": "",
+                "target": "",
+                "icon"  : ""
+            },
+            {
+                "code"  : "permissions",
+                "label" : "Permissions",
+                "id"    : 3,
+                "action": "",
+                "target": "",
+                "icon"  : ""
+            }
+        ]
+    },
+    {
+        "code"      : "calendar",
+        "label"     : "Calendar",
+        "id"        : 6,
+        "icon"      : "date_range",
+        "filterFunc": "",
+        "color"     : "orange",
+        "status"    : "active",
+        "cells"     : []
+    },
+    {
+        "code"      : "financial",
+        "label"     : "Financial",
+        "id"        : 7,
+        "icon"      : "receipt",
+        "filterFunc": "default",
+        "color"     : "pink",
+        "status"    : "active",
+        "cells"     : [
+            {
+                "code"  : "invoices",
+                "label" : "Invoices",
+                "id"    : 0,
+                "action": "",
+                "target": "",
+                "icon"  : ""
+            },
+            {
+                "code"  : "contracts",
+                "label" : "Contracts",
+                "id"    : 1,
+                "action": "",
+                "target": "",
+                "icon"  : ""
+            },
+            {
+                "code"  : "plans",
+                "label" : "Plans",
+                "id"    : 2,
+                "action": "",
+                "target": "",
+                "icon"  : ""
+            },
+            {
+                "code"  : "discounts",
+                "label" : "Discounts",
+                "id"    : 3,
+                "action": "",
+                "target": "",
+                "icon"  : ""
+            }
+        ]
+    },
+    {
+        "code"      : "my_account",
+        "label"     : "My Account",
+        "id"        : 8,
+        "icon"      : "assignment_ind",
+        "filterFunc": "default",
+        "color"     : "black",
+        "status"    : "disabled",
+        "cells"     : [
+            {
+                "code"  : "settings",
+                "label" : "Settings",
+                "id"    : 0,
+                "action": "",
+                "target": "",
+                "icon"  : ""
+            },
+            {
+                "code"  : "preferences",
+                "label" : "Preferences",
+                "id"    : 1,
+                "action": "",
+                "target": "",
+                "icon"  : ""
+            },
+            {
+                "code"  : "profile",
+                "label" : "Profile",
+                "id"    : 2,
+                "action": "",
+                "target": "",
+                "icon"  : ""
+            }
+        ]
+    },
+    {
+        "code"      : "testing",
+        "label"     : "Testing",
+        "id"        : 9,
+        "icon"      : "extension",
+        "filterFunc": "default",
+        "color"     : "yellow",
+        "status"    : "active",
+        "cells"     : []
+    },
+    {
+        "code"      : "about",
+        "label"     : "About",
+        "id"        : 10,
+        "icon"      : "pageview",
+        "filterFunc": "default",
+        "color"     : "cyan",
+        "status"    : "active",
+        "cells"     : null,
+        "target"    : null, 
+        "source"    : "https://localhost:6601/testing/responsesxx2",
+        "action"    : "external"
+    }
+]

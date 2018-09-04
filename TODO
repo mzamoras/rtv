@@ -1,0 +1,10 @@
+Todos:
+    Styling:
+        ☐ Unify default styling
+        ☐ Fix rotation animation, use globally
+        ☐ Fix global loading style
+    Necessary:
+      ☐ Make default components dynamically loadable 
+    Dessirable:
+        ☐ Finish README documents
+        ☐ The Default Footer should have diffrent display options, such as details, or buttons

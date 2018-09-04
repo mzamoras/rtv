@@ -1,0 +1,44 @@
+{
+    "name": "react-rtv",
+    "version": "1.0.0",
+    "main": "compiled/index.js",
+    "description": "React TableView Component, a slide menu manager to handle lateral menus.",
+    "author": "Miguel Zamora",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mzamoras/rtv.git"
+    },
+    "keywords": [
+        "tableview",
+        "react",
+        "custom"
+    ],
+    "scripts": {
+        "compile": "rimraf ./compiled && babel -d compiled/ reactApp/react/components/rtv --copy-files --presets=env,react,stage-2",
+        "compile::watch": "rimraf ./compiled && babel -d compiled/ reactApp/react/components/rtv --copy-files --presets=env,react,stage-2 -w",
+        "prepublish": "npm run compile",
+        "//  - - - React Base Project Starter Kit Scripts - - - //": "",
+        "rbc::recompile": "rimraf ./node_modules/react-base-starter-project/dist && babel --presets env --plugins transform-object-rest-spread -d ./node_modules/react-base-starter-project/dist/ ./node_modules/react-base-starter-project/src/ --copy-files",
+        "rbc::recompileW": "rimraf ./node_modules/react-base-starter-project/dist && babel --presets env --plugins transform-object-rest-spread -d ./node_modules/react-base-starter-project/dist/ ./node_modules/react-base-starter-project/src/ --copy-files -w",
+        "rbc::start": "node ./node_modules/react-base-starter-project/dist/start.js",
+        "rbc::electron": "node ./node_modules/react-base-starter-project/scripts/electron.js",
+        "rbc::storybook": "node ./node_modules/react-base-starter-project/scripts/storybook.js",
+        "rbc::karma": "node ./node_modules/react-base-starter-project/scripts/karma.js ",
+        "rbc::karmaWatch": "node ./node_modules/react-base-starter-project/scripts/karma.js watch",
+        "rbc::jest": "node ./node_modules/react-base-starter-project/scripts/jest.js ",
+        "rbc::jestWatch": "node ./node_modules/react-base-starter-project/scripts/jest.js watch"
+    },
+    "rbc::eslintConfig": {
+        "root": true,
+        "globals": {},
+        "extends": "./node_modules/react-base-starter-project/dist/config/eslint.conf.js"
+    },
+    "dependencies": {
+        "react-autobind-helper": "^1.0.0",
+        "react-base-starter-project": "^0.0.8",
+        "react-sb3": "^2.0.0",
+        "react-transition-group": "^2.4.0",
+        "shallowequal": "^1.1.0"
+    }
+}
